@@ -40,7 +40,7 @@
 
         .section-blue
         {
-            min-height: 620px;
+            min-height: 700px;
             color: #fff;
             background: linear-gradient(40deg, #4bded78c, #1675d659), url('../main-banner.jpg');
             background-repeat: no-repeat;
@@ -72,11 +72,12 @@
             margin-right: 10px;
         }
 
-        .custom-container hr
+        .custom-container hr, .contact-us-section hr, .offices-section hr
         {
             width: 5%;
             border-top: 1px solid #11a8da;
         }
+
         .column-design
         {
             /*border: 1px solid #ccc;*/
@@ -92,6 +93,58 @@
         .middle-row
         {
             text-align: center;
+        }
+
+        .lower-row
+        {
+            margin-top: 15px;
+        }
+
+        .contact-us-section
+        {
+            margin-top: 12em;
+            margin-bottom: 12em;
+            outline: none;
+        }
+
+        .contact-form input
+        {
+            border-radius: unset;
+            outline: none;
+        }
+
+        .contact-form select
+        {
+            border-radius: unset;
+        }
+
+        .contact-form textarea
+        {
+            border-radius: unset;
+        }
+
+        .contact-form
+        {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .contact-form textarea
+        {
+            margin-top: 20px;
+            resize: none;
+        }
+
+        .contact-form .btn-submit
+        {
+            margin-top: 15px;
+            float: right;
+            width: 184px;
+            color: #fff;
+            padding: 5px 15px;
+            background-color: #2962ff;
+            font-weight: 600;
+            letter-spacing: 1px;
         }
 
         /* icons */
@@ -112,6 +165,14 @@
         }
 
         /* our offices */
+
+        .offices-section
+        {
+            background-color: rgb(250, 244, 244);
+            padding-top: 4em;
+            padding-bottom: 4em;
+        }
+
         .offices-wrap
         {
            text-align: center;
@@ -127,8 +188,6 @@
             font-size: 20px;
           
         }
-
-
 
         /* media queries */
         @media(max-width: 768px)
