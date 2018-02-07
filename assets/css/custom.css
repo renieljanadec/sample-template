@@ -40,10 +40,9 @@
 
         .section-blue
         {
-            min-height: 750px;
+            min-height: 620px;
             color: #fff;
             background: linear-gradient(40deg, #4bded78c, #1675d659), url('../main-banner.jpg');
-            background-size: cover;
             background-repeat: no-repeat;
             background-position: center 20%;
             padding-top: 15rem;
@@ -51,6 +50,7 @@
             text-align: center;
             clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 
+            background-size: cover;
             background-attachment: fixed;
          
         }
