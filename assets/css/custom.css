@@ -145,20 +145,12 @@
             margin-top: 15px;
             float: right;
             width: 184px;
-            color: #1a1a1a;
+            color: #fff;
             padding: 5px 15px;
-            background-color: transparent;
-            border-color: #3367f8;
-            border-radius: unset;
-            letter-spacing: 1px;
-        }
-
-        .btn-submit:hover
-        {
             background: linear-gradient(40deg, #2e92d8, #30d4de);
             border: none;
-            color: #fff;
-            transition: all ease 0.4s;
+            border-radius: unset;
+            letter-spacing: 1px;
         }
 
         /* icons */
@@ -182,7 +174,7 @@
 
         .offices-section
         {
-            background-color: rgb(250, 244, 244);
+            background-color: #f5f8fd;
             padding-top: 4em;
             padding-bottom: 4em;
         }
