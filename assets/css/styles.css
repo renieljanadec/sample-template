@@ -1,0 +1,248 @@
+             #section1 > .container
+            {
+                border: #fff;
+            }
+
+             #section2
+            {
+                
+                background-image: url('../sunset.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+
+            .padding-top
+            {
+                padding-top: 12rem;
+                padding-bottom: 5rem;
+            }
+
+            .lower-row
+            {
+                margin-top: 1.5rem;
+                padding-bottom: 2rem;
+            }
+
+            .section-homepage
+            {
+                background-image: url('../svg-poly.jpg');
+                background-size: cover 100%;
+                background-repeat: no-repeat;
+                background-color: #ffb508;
+                color: #fff;
+            }
+
+            .homepage-border
+            {
+                border: 3px solid #fff;
+                max-width: 1000px;
+                margin-left: 250px;
+                padding: 20px 10px 20px 20px;
+            }
+
+           .section-white
+           {
+                background-color: rgb(255, 255, 255);
+           }
+
+            .section-white-content
+            {
+                margin-top: 120px;
+                color: rgb(77, 74, 74);
+            }
+
+            .section-aqua
+            {
+                background-color: rgb(236, 162, 51);
+                /*background-color: rgb(60, 196, 126);*/
+                color: rgb(250, 241, 241);
+            }
+
+            .section-personnel
+            {
+                background: rgb(247, 244, 244);
+            }
+
+            .section-personnel-content
+            {
+                margin-top: 120px;
+            }
+
+            .section-personnel-content > .lower-row
+            {
+                margin-top: 3em;
+            }
+
+            .section-office
+            {
+                background: rgb(92, 91, 91);
+                background-image: url('../office.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .aqua-heading, .white-heading
+            {
+                font-size: 2.5em;
+            }
+
+            .font-orange
+            {
+                color:#ffb508;
+            }
+
+            .blue-boxes
+            {
+                background: rgb(55, 183, 192);
+                /*border: 1px solid rgb(55, 183, 192);*/
+                color: rgb(255, 255, 255);
+                width: 310px;
+                height: 310px;
+                padding: 50px 25px 25px 25px;
+            }
+
+            .blue-boxes:hover
+            {
+               letter-spacing: 0.5px;
+                color: #fff;
+            }
+
+            .blue-section
+            {
+                margin-top: 3rem;
+                margin-left: 5%;
+                margin-bottom: 5em;
+            }
+
+            .orange-section
+            {
+                margin-top: 4em;
+                margin-left: 250px;
+            }
+
+            .orange-boxes
+            {
+                color: #fff;
+                background-color: #ee950f;
+                padding: 50px 12px;
+                font-weight: 300;
+                height: 300px;
+                width: 200px;
+            }
+
+            .orange-section > .col.md-4
+            {
+                margin-right:  100px;
+            }
+
+            .gray-section
+            {
+               background: rgb(236, 236, 236);
+               margin-top: 12em;
+               padding: 100px 100px;
+               width: 100%;
+            }
+
+            .extras-font
+            {
+                font-size: 2.5rem;
+            }
+
+            .blue-margin-top
+            {
+                margin-top: 3rem;   
+            }
+
+            #italic
+            {
+                font-style: italic;
+            }
+
+            img.user
+            {
+                margin-bottom: 20px;
+                display: table-cell;
+            }
+
+            /* video */
+            #video
+            {
+                position: absolute;
+                z-index: 4;
+                right: 0;
+                bottom: 0;
+                top:0;
+                right:0;
+                width: 100%;
+                height: 100%;
+                background-size: 100% 100%;
+                background-color: black; /* in case the video doesn't fit the whole page*/
+                background-image: /* our video */;
+                background-position: center center;
+                background-size: contain;
+                object-fit: cover; /*cover video background */
+            }
+
+
+
+            /* media queries */
+            @media only screen and (min-width: 375px) and (max-width:667px)
+            {
+                .homepage-border
+                {
+                    margin-left: 1%;
+                    margin-right: 2%;
+                    padding: 30px 15px 1px 1%;
+                }
+
+                .homepage-border h1
+                {
+                    font-size: 3.5em;
+                }
+
+                .homepage-border p
+                {
+                    font-size: 20px;
+                }
+
+                .section-white-content
+                {
+                    margin-top: 12%;
+                }
+
+                #section4
+                {
+                    padding-top: 18%;
+                }
+
+                .lower-row
+                {
+                    margin-top: 2.5rem;
+                }
+
+                .section-personnel-content
+                {
+                    margin-top: 3rem;
+                }
+
+                .orange-section
+                {
+                    margin-left: 1em;
+                }
+            }
+
+            @media only screen and (min-width: 320px) and (max-width: 568px)
+            {
+                .homepage-border
+                {
+                    margin-left: 3%;
+                    margin-right: 2%;
+                    padding: 30px 15px 5px 5%;
+                }
+
+                .section-white-content
+                {
+                    margin-top: 10%;
+                }
+
+            }
