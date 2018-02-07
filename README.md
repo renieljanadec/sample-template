@@ -1,4 +1,3 @@
-# navbar-play
-navbar play on bootstrap
+# sample template
 
-with a clip path and fixed parallax (background-attachment fixed)
+sample template written in bootstrap with a clip path and fixed parallax (background-attachment fixed)
