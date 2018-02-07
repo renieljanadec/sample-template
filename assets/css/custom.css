@@ -107,6 +107,11 @@
             outline: none;
         }
 
+        .contact-us-section p
+        {
+            text-align: center;
+        }
+
         .contact-form input
         {
             border-radius: unset;
@@ -129,9 +134,9 @@
             margin-bottom: 50px;
         }
 
-        .contact-form textarea
+        .contact-form textarea, .contact-form select
         {
-            margin-top: 20px;
+            margin-top: 14px;
             resize: none;
         }
 
@@ -140,11 +145,20 @@
             margin-top: 15px;
             float: right;
             width: 184px;
-            color: #fff;
+            color: #1a1a1a;
             padding: 5px 15px;
-            background-color: #2962ff;
-            font-weight: 600;
+            background-color: transparent;
+            border-color: #3367f8;
+            border-radius: unset;
             letter-spacing: 1px;
+        }
+
+        .btn-submit:hover
+        {
+            background: linear-gradient(40deg, #2e92d8, #30d4de);
+            border: none;
+            color: #fff;
+            transition: all ease 0.4s;
         }
 
         /* icons */
@@ -209,6 +223,17 @@
                margin-left: 15px;
                margin-right: 15px;
                text-align: center;
+            }
+
+            .contact-us-section
+            {
+                margin-left: 15px;
+                margin-right: 15px; 
+            }
+
+            .contact-us-section input
+            {
+                margin-bottom: 12px;
             }
 
             .custom-heading
