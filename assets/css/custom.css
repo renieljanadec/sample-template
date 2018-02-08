@@ -91,8 +91,10 @@ body {
 	border-radius: unset;
 	outline: none;
 }
-.contact-form select {
+
+.contact-us-section .contact-form select {
 	border-radius: unset;
+	margin-top: 15px;
 }
 .contact-form textarea {
 	border-radius: unset;
@@ -101,10 +103,16 @@ body {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-.contact-form textarea,
-.contact-form select {
+.contact-form textarea
+{
+
 	margin-top: 14px;
 	resize: none;
+}
+
+.contact-form select
+{
+    margin-top: 0;
 }
 .contact-form .btn-submit {
 	margin-top: 15px;
@@ -137,7 +145,7 @@ body {
 .offices-section {
 	background-color: #f5f8fd;
 	padding-top: 4em;
-	padding-bottom: 4em;
+	padding-bottom: 10em;
 }
 .offices-wrap {
 	text-align: center;
