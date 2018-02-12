@@ -35,10 +35,10 @@ body {
 */
 
 .section-blue {
-	min-height: 600px;
+	min-height: 700px;
 	color: #fff;
-	background: linear-gradient(40deg, #4bded78c, #1675d659), url('../main-banner.jpg');
-	background-repeat: no-repeat;
+	background-color: #1aa9df;
+	background: linear-gradient(40deg, #3f41414a, #1aa9dfa6), url('../gisel-jac.jpg');
 	background-position: center 20%;
 	padding-top: 15rem;
 	padding-bottom: 12rem;
