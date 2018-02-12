@@ -1,4 +1,5 @@
 # sample template
 
-sample template written in bootstrap with a clip path and fixed parallax (background-attachment fixed)
-based on localsearch website I did for internship
+Sample template
+Based on Localsearch website I did for internship.
+This is basically localsearch, reimagined. I supposed.
