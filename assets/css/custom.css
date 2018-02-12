@@ -100,7 +100,6 @@ body {
 
 .contact-us-section .contact-form select {
 	border-radius: unset;
-	margin-top: 15px;
 }
 .contact-form textarea {
 	border-radius: unset;
@@ -116,10 +115,6 @@ body {
 	resize: none;
 }
 
-.contact-form select
-{
-    margin-top: 0;
-}
 .contact-form .btn-submit {
 	margin-top: 15px;
 	float: right;
@@ -170,10 +165,19 @@ body {
 .footer {
 	min-height: 200px;
 	background-color: #1a1a1a;
+	color: #fff;
 }
 /* media queries */
 
 @media(max-width: 768px) {
+
+	.section-blue
+	{
+		padding-top: 11rem;
+		padding-bottom: 5rem;
+		min-height: 460px;
+	}
+
 	.nav-link {
 		text-align: right;
 		padding: 15px;
