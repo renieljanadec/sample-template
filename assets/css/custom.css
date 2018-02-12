@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'Lato';
-	src: url('../fonts/Lato/Lato.ttf');
+	font-family: 'CircularTT';
+	src: url('../../fonts/CircularTT/CircularTT-Book.ttf');
 	font-weight: 400;
 }
 
@@ -10,7 +10,7 @@ body {
     height: 100%;
 }
 body {
-	font-family: Lato, sans-serif;
+	font-family: 'CircularTT', sans-serif;
 	color: #4a4a4a;
 }
 .default-navbar {
@@ -44,7 +44,7 @@ body {
 	min-height: 700px;
 	color: #fff;
 	background-color: #1aa9df;
-	background: linear-gradient(40deg, #3f41414a, #1aa9dfa6), url('../gisel-jac.jpg');
+	background: linear-gradient(2deg, #3f4141c9, #1aa9dfa6), url('../gisel-jac.jpg');
 	background-position: center 20%;
 	padding-top: 15rem;
 	padding-bottom: 12rem;
