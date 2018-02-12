@@ -190,7 +190,21 @@
 
 <script>
     $(document).ready(function(){
-        //
+        $(document).scroll(function(){
+
+            var scrollPos = $(document).scrollTop();
+
+            if(scrollPos >= 100)
+            {
+                //add shadow in navbar
+                $('.default-navbar').css("opacity", 1);
+                $('.default-navbar').addClass('scrolled');
+            }
+            else
+            {
+                $('.default-navbar').removeClass('scrolled');
+            }
+        });
     });
 </script>
 
