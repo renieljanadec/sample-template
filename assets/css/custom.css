@@ -138,9 +138,22 @@ body {
 
 .btn-default {
 	background: transparent;
-	border: 1px solid #fff;
+	border: 3px solid rgb(255, 196, 2);
+	border-radius: unset;
 	color: #fff;
+	outline: none !important;
+	letter-spacing: 1px;
+	width: 184px;
 }
+
+.btn-default:hover{
+
+	background-color: rgb(255, 196, 2);
+	color: #1a1a1a;
+	transition: all ease-in-out 0.5s;
+
+}
+
 /* our offices */
 
 .offices-section {
