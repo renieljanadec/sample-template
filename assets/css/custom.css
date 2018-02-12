@@ -1,15 +1,16 @@
 @font-face {
-	font-family: 'Lato';
-	src: url('../fonts/Lato-Blakc.ttf');
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway/Raleway-Regular.ttf');
 	font-weight: 400;
 }
+
 html,
 body {
     min-height: 100%;
     height: 100%;
 }
 body {
-	font-family: Lato, sans-serif;
+	font-family: Raleway, sans-serif;
 	color: #4a4a4a;
 }
 .default-navbar {
